@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Basic Calculator</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+
+        <div class="grid-container">
+            <div class="result-container">
+                <form>
+                    <textarea id="previous" rows="3" disabled></textarea>
+                    <textarea id="results" rows="2"  disabled></textarea>
+                </form>
+            </div>
+    
+            <div class="num-container">
+                <button class="numbers" id="nine">7</button>
+                <button class="numbers" id="eight">8</button>
+                <button class="numbers" id="seven">9</button>
+                <button class="numbers" id="six">4</button>
+                <button class="numbers" id="five">5</button>
+                <button class="numbers" id="four">6</button>
+                <button class="numbers" id="three">1</button>
+                <button class="numbers" id="two">2</button>
+                <button class="numbers" id="one">3</button>
+                <button class="numbers" id="zero">0</button>
+                <button class="point" id="point">.</button>
+            </div>
+
+            <div class="operator-container">
+                <button class="operators" id="multiply">*</button>
+                <button class="operators" id="subtract">-</button>
+                <button class="operators" id="divide">/</button>
+                <button class="operators" id="add">+</button>
+                <button class="operators" id="equals">=</button>
+                <button class="operators" id="delete">&#9003;</button>
+                <button class="operators" id="plusminus">+/-</button>
+                <button class="operators" id="modulo">%</button>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
